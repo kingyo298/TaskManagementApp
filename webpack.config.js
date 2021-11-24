@@ -4,9 +4,9 @@ var webpack = require('webpack')
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: path.resolve(__dirname, '../docs/index.html'),
+    path: path.resolve(__dirname, '../dist/index.html'),
     publicPath: './',
-    outputDir: 'docs/',
+    outputDir: 'dist/',
     filename: 'build.js'
   },
   module: {
